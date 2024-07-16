@@ -14,13 +14,13 @@
 
 ### python任务2（在本地vscode中远程debug代码）
 
-![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/python/02.png)
+![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/python/01.png)
 
 进阶：使用pytest 完成单元测试用例编写。
 
-![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/python/03.png)
+![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/python/02.png)
 
-![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/python/04.png)
+![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/python/03.png)
 
 
 
