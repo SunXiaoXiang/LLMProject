@@ -1,7 +1,8 @@
 
 ### python任务1（编写wordcount）
 
-![[Pasted image 20240717014118.png]]
+https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/python/01.png
+
 
 备注：勘误 教程中的示例output：
 {'hello': 1,'world!': 1,'this': 1,'is': 3,'an': 1,'example': 1,'word': 1, 
@@ -14,12 +15,13 @@
 
 ### python任务2（在本地vscode中远程debug代码）
 
-![[Pasted image 20240717014118.png]]
+https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/python/02.png
 
 进阶：使用pytest 完成单元测试用例编写。
-![[Pasted image 20240717023152.png]]
 
-![[Pasted image 20240717024010.png]]
+https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/python/03.png
+
+https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/python/04.png
 
 
 
