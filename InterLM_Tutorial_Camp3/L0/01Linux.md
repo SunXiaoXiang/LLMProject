@@ -34,17 +34,17 @@ ls -lu
 stat filename
 
 当touch一个不存在的文件，不同命令查看文件的三个时间情况（注：show_time.sh 脚本将显示访问时间和修改时间）
-![[Pasted image 20240712231849.png]]
+![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/linux/01.png)
 当touch -a更新access time时：
-![[Pasted image 20240712232221.png]]
+![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/linux/02.png)
 当touch -m更新modify time时：
-![[Pasted image 20240712232422.png]]
+![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/linux/03.png)
 
-![[Pasted image 20240712232924.png]]
+![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/linux/04.png)
 当touch指定时间更新时：
-![[Pasted image 20240712233125.png]]
+![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/linux/05.png)
 当使用touch -d指定修改时，将完整更新三个时间。
-![[Pasted image 20240712233348.png]]
+![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/linux/06.png)
 
 添加的Bash脚本，如下：
 ```bash
@@ -105,11 +105,11 @@ chmod +x show_times.sh
 - `-v`：显示详细的创建过程。
 
 创建一个新文件夹，使用tree查看目录树形（pip install tree，安装后可使用）。
-![[Pasted image 20240712233929.png]]
+![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/linux/07.png)
 创建多层文件夹，使用tree查看目录树形
-![[Pasted image 20240712234048.png]]
+![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/linux/08.png)
 创建文件夹并设置权限，使用tree查看目录树形
-![[Pasted image 20240712234247.png]]
+![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/linux/09.png)
 ### 注意事项
 - `mkdir` 命令默认情况下不会递归创建目录，如果父目录不存在，则会报错。使用 `-p` 选项可以避免这个问题。
 - 创建目录时，默认的权限模式是 `rwxr-xr-x`（即 755），可以通过 `-m` 选项自定义权限。
@@ -126,7 +126,7 @@ cd ..  # 更换到上一级目录
 cd /   # 更换到root 目录
 ```
 执行截图。
-![[Pasted image 20240713003414.png]]
+![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/linux/10.png)
 #### 3.1.4 pwd
 #### 命令：`pwd`
 "print working directory"，即打印当前工作目录。
@@ -137,7 +137,7 @@ cd /   # 更换到root 目录
 
 假设当前目录是 `/root/share`，并且 `/root/share` 是一个符号链接，指向 `/share`。
 
-![[Pasted image 20240713003928.png]]
+![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/linux/11.png)
 
 #### 3.1.5 cat
 #### 命令：`cat`
@@ -299,11 +299,11 @@ cp -rvp /path/to/source_dir/ /path/to/destination_dir/
 
 通过这些示范，你可以灵活地使用 `cp` 命令来复制文件和目录，并根据需要选择合适的选项。
 
-![[Pasted image 20240716002338.png]]
+![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/linux/12.png)
 
-![[Pasted image 20240716002547.png]]
+![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/linux/13.png)
 
-![[Pasted image 20240716002942.png]]
+![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/linux/14.png)
 
 "link"，即链接。这个命令用于创建链接文件，包括硬链接和符号链接（软链接）。链接文件类似于 Windows 中的快捷方式，可以指向另一个文件或目录。`ln` 命令有两种类型的链接：硬链接（hard link）和符号链接（symbolic link 或 soft link）。
 
@@ -437,7 +437,7 @@ mv -v /path/to/source_dir /path/to/destination_dir
 
 通过这些示范，你可以灵活地使用 `mv` 命令来移动文件和目录，并根据需要选择合适的选项。
 
-![[Pasted image 20240716004539.png]]
+![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/linux/15.png)
 
 `rm` 命令是 Linux 和 Unix 系统中的一个基本命令，用于删除文件和目录。以下是 `rm` 命令的常用示范和参数解释：
 
@@ -497,7 +497,7 @@ rm -rv /path/to/source_dir
 ```
 
 通过这些示范，你可以灵活地使用 `rm` 命令来删除文件和目录，并根据需要选择合适的选项。请注意，`rm` 命令删除的文件和目录通常无法恢复，因此在使用时要格外小心。
-![[Pasted image 20240716005032.png]]
+![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/linux/16.png)
 
 #### 3.1.9 find
 
@@ -568,7 +568,7 @@ find /home/user -name "*.log" -mtime -30 -exec rm {} \;
 
 通过这些示范，你可以灵活地使用 `find` 命令来查找文件和目录，并根据需要执行相应的操作。`find` 命令非常强大，可以满足各种复杂的搜索需求。
 
-![[Pasted image 20240716010146.png]]
+![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/linux/17.png)
 
 #### 3.1.10 ls
 
@@ -639,8 +639,8 @@ ls -lha
 
 通过这些示范，你可以灵活地使用 `ls` 命令来列出目录内容，并根据需要选择合适的选项。`ls` 命令是日常使用中非常实用的工具，可以帮助你快速查看和管理文件和目录。
 
-![[Pasted image 20240716010503.png]]
-![[Pasted image 20240716010555.png]]
+![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/linux/18.png)
+![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/linux/19.png)
 
 
 #### 3.1.11 sed
@@ -715,7 +715,7 @@ sed -i 's/apple/orange/g' file.txt
 
 通过这些示范，你可以灵活地使用 `sed` 命令来处理文本，并根据需要选择合适的选项和命令。`sed` 命令是文本处理中非常实用的工具，可以帮助你快速完成各种复杂的文本操作。
 
-![[Pasted image 20240716012114.png]]
+![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/linux/20.png)
 
 
 ### 3.2 进程管理
@@ -778,23 +778,23 @@ sudo apt-get install psmisc
 ## 关卡任务
 ### linux闯关任务
 vscode中remote-ssh连接后编辑代码hello_world.py。
-![[Pasted image 20240716172644.png]]
+![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/linux/21.png)
 在vscode，terminal中执行代码。
-![[Pasted image 20240716175008.png]]
+![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/linux/22.png)
 在ports中映射端口。
-![[Pasted image 20240716175033.png]]
+![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/linux/23.png)
 在本地电脑上就可以显示服务器的页面了。
-![[Pasted image 20240716175111.png]]
+![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/linux/24.png)
 
 ### 可选任务1（linux基础命令）
 如笔记上部分。
 
 ### 可选任务2（vscode远程开发并创建一个conda环境）
 该conda环境名为demo。
-![[Pasted image 20240716175420.png]]
+![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/linux/25.png)
 创建完成，并激活环境demo。
-![[Pasted image 20240716180024.png]]
+![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/linux/26.png)
 ### 可选任务3（创建并执行test.sh脚本）
 在demo环境中，创建并激活test.sh脚本
-![[Pasted image 20240716180930.png]]
+![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/linux/27.png)
 
