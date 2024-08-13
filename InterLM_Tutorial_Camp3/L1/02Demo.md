@@ -60,7 +60,6 @@ while True:
 接下来，便可以通过 `python /root/demo/cli_demo.py` 来启动 Demo
 
 ![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L1/imgs/0201.png)
-![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L0/imgs/linux/01.png)
 
 ## ## Streamlit Web Demo 部署 InternLM2-Chat-1.8B 模型
 
@@ -88,7 +87,7 @@ ssh -CNg -L 6006:127.0.0.1:6006 root@ssh.intern-ai.org.cn -p 46803
 
 效果如下图所示：
 
-![[Pasted image 20240813234740.png]]
+![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L1/imgs/0202.png)
 
 ## LMDeploy 部署 InternLM-XComposer2-VL-1.8B 模型
 
@@ -117,7 +116,7 @@ lmdeploy serve gradio /share/new_models/Shanghai_AI_Laboratory/internlm-xcompose
 
 在使用 Upload Image 上传图片后，我们输入 Instruction 后按下回车，便可以看到模型的输出。
 
-![[Pasted image 20240813234908.png]]
+![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L1/imgs/0203.png)
 
 ## LMDeploy 部署 InternVL2-2B 模型
 
@@ -136,7 +135,7 @@ lmdeploy serve gradio /share/new_models/OpenGVLab/InternVL2-2B --cache-max-entry
 
 在使用 Upload Image 上传图片后，我们输入 Instruction 后按下回车，便可以看到模型的输出。
 
-![[Pasted image 20240813235005.png]]
+![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L1/imgs/0204.png)
 
 ##  **手动部署 `InternLM2-Chat-1.8B` 模型进行智能对话**
 
@@ -250,4 +249,4 @@ python /root/demo/cli_demo.py
 请创作一个300字的小故事
 ```
 
-![[Pasted image 20240813235119.png]]
+![示例图片](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L1/imgs/0205.png)
