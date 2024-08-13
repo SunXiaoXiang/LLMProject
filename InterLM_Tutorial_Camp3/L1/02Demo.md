@@ -59,7 +59,7 @@ while True:
 
 接下来，便可以通过 `python /root/demo/cli_demo.py` 来启动 Demo
 
-![[https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L1/imgs/0201.png]]
+![](https://github.com/SunXiaoXiang/LLMProject/blob/main/InterLM_Tutorial_Camp3/L1/imgs/0201.png)
 
 ## ## Streamlit Web Demo 部署 InternLM2-Chat-1.8B 模型
 
